@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aportación para Plantar Árbol</title>
+    <link rel="stylesheet" href="aportacion.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    
+                    <li><a href="index2.html">Inicio</a></li>
+                    <li><a href="aportacion.html">Aportación</a></li>
+                    <li><a href="calor.html">Sobre el Calor</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        
+        <section id="aportacion" class="aportacion-section">
+            <h2>Contribuye para Plantar un Árbol</h2>
+            <form id="donationForm">
+                <label for="username">Correo electronico:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="amount">Monto de Donación:</label>
+                <input type="number" id="amount" name="amount" required>
+
+                <label for="numerotarjeta">Ingrese los numeros de su tarjeta</label>
+                <input type="number"id="numerotarjeta" name="numerotarjeta" required>
+
+                <label for="cvc">por ingrese el cvc </label>
+                <input type="number" id="cvc" name="cvc"required>
+
+                <label for="fecha">ingrese la fecha de vencimiento de la tarjeta </label>
+                <input type="date" id="fecha" name="fecha"required>
+
+                <button type="submit">Donar</button>
+            </form>
+            <p id="confirmationMessage"></p>
+        </section>
+        
+        <footer>
+            <p>&copy; 2024 Calor en Suchiapa, Chiapas. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
